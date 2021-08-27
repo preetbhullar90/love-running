@@ -275,3 +275,43 @@ float: right;
     #photos > img {
         width: 100%;
     }
+
+    /* media queries */
+
+    /* For larger to medium screens size from 1200px wide and down */
+
+    @media screen and  (max-width:1200px){
+    #club-ethos{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+       width: 65%;
+       height: 1200px; 
+       margin: 0 auto;
+    }
+    #welcome{
+        width: 100%;
+        padding: 30px 0;
+        margin: 0;
+       box-sizing: border-box;
+    }
+
+    #left-about, #right-about{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about{
+        clear: both;
+        width: 100%;
+        padding-bottom: 60px;
+     }
+     hr{
+         display: none;
+     }
+
+
+
+        
+    }
