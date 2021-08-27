@@ -24,7 +24,7 @@ h1, h2{
 #logo{
    float: left;
    font-size: 280%;
-   padding-left: 30px;
+   margin-left: 30px;
 }
 
  /* navigation links */
@@ -119,13 +119,6 @@ transform: scale(1.1);
     position: absolute;
 }
 
-#welcome{
-display: flex;
-justify-content: center;
-margin: 20px 0;
-font-size: 280%;
-}
-
 #club-ethos{
 
 height: 600px;
@@ -179,6 +172,12 @@ float: right;
 
     .right-about-heading p {
         text-align: right;
+    }
+
+    #welcome{
+        text-align: center;
+        margin: 20px 0;
+        font-size: 280%;
     }
     #circle-container{
         width: 300px;
@@ -299,5 +298,18 @@ float: right;
         margin-bottom: 20px;
         line-height:25px ;
     }
-   
+    #cover-text{
+        left: 0;
+    }
+    #club-ethos{
+       width: 90%;
+       height: 1200px;
+       margin: 0 auto; 
+    }
+    #welcome{
+        
+        width: 90%;
+        margin: 0 auto; 
+     }
+    
  }
