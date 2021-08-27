@@ -144,3 +144,28 @@ transform: scale(1.1);
 
     position: absolute;
 }
+
+#club-ethos-heading{
+display: flex;
+justify-content: center;
+}
+
+#club-ethos{
+display: flex;
+height: 600px;
+}
+
+.left-about{
+    padding-top: 30px;
+width: 33%;
+}
+
+.center-about{
+    padding-top: 30px;
+    width: 33%;  
+}
+
+.right-about{
+    padding-top: 30px;
+    width: 33%;
+}
