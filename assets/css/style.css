@@ -280,6 +280,14 @@ float: right;
         float: left;
         padding:0px;
      }
+
+     #times > div{
+        width: 100%;
+        clear: both;
+        height:150px ;
+        padding: 0;
+     }
+
      hr{
          display: none;
      }
